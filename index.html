@@ -33,9 +33,9 @@
 
 	var map = L.map('map').setView([51.505, -0.09], 13);
 
-	var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	var tiles = L.tileLayer('https://{s}.github.com/russaj/borderland/blob/979bde2adad74eb2940c11c694efa1d3ccf62f0d/images/Borderland_Master_Hex_Regions_17/{z}/{x}/{y}.jpeg', {
 		maxZoom: 19,
-		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+		attribution: '&copy; Borderland'
 	}).addTo(map);
 
 	var marker = L.marker([51.5, -0.09]).addTo(map)
