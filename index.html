@@ -33,6 +33,10 @@
     </div>
     <div class="about text-block">
        <div id="map"></div>
+      <script>
+        var map = L.map('map').setView([51.505, -0.09], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19, attribution: '© OpenStreetMap'}).addTo(map);
+      </script>
       <a id="about"></a>
       <h2>About</h2>
       <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam pulvinar euismod dolor, eu aliquam nibh efficitur vel. Phasellus sit amet velit congue, finibus nibh eu, ultricies magna. Donec eu ultrices eros. Donec sit amet metus nisi. Nulla tincidunt justo non risus aliquam, sit amet lacinia lacus commodo. Aliquam ultricies ante sed semper porta. Integer eros tortor, convallis eu ultricies malesuada, fringilla sed libero. Aenean molestie rhoncus leo eu imperdiet. Mauris eget molestie massa. Maecenas auctor sapien a arcu laoreet, et consectetur odio scelerisque. Praesent ac turpis sed neque porttitor finibus faucibus quis tortor. Morbi tempus turpis lacus, nec laoreet tellus rhoncus quis. Aliquam vitae dolor urna. In pellentesque ullamcorper turpis, commodo cursus mauris condimentum eget.</p>
