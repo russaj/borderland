@@ -109,13 +109,13 @@ header p{
   grid-template-rows: 30px repeat(5, auto) 100px;
   grid-row-gap: 15px;
 }
-.about, .method, .clients, .contact{
+.about, .nothic, .contact{
   /*Your code here */
   /* See documentation for mobile view */
   grid-column: 2 / span 1;
 }
 
-.about-image, .method-image, .clients-image, .contact-image{
+.about-image, .nothic-image, .contact-image{
    /*Your code here */
    /* See documentation for mobile view */
    grid-column: 1 / -1;
@@ -130,19 +130,11 @@ header p{
 
 }
 
-.method, .method-image{
+.nothic, .nothic-image{
   /*Your code here */
   /* See documentation for mobile view */
   grid-row: 4 / span 1;
 }
-
-
-.clients, .clients-image{
-  /*Your code here */
-  /* See documentation for mobile view */
-  grid-row: 5 / span 1;
-}
-
 
 .contact, .contact-image{
   /*Your code here */
@@ -158,8 +150,6 @@ header p{
   /*Align the content in the center */
   align-self: center;
 }
-
-
 
 @media all and (min-width: 800px){
 
